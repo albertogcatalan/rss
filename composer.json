@@ -21,7 +21,8 @@
     "require": {
         "php": ">=7.2",
         "albertogcatalan/minimalism-framework": "^1.6",
-        "dg/rss-php": "dev-master"
+        "dg/rss-php": "dev-master",
+        "maximebf/debugbar": "^1.16@dev"
     },
     "autoload": {
         "psr-4": { "Minimalism\\App\\": "App/", "Minimalism\\Cli\\Commands\\": "Commands/" }
