@@ -1,0 +1,68 @@
+# Config and databases
+.htpasswd
+[Cc]onfig/*
+/App/Config.yml
+/App/Config.yml.bak
+/files/*
+files/*
+*.sql
+*.sqlite
+.idea/*
+
+# Sessions
+/[Ss]essions/*
+
+# Logs, cache
+/public/Resources/*
+[Ll]ogs/*
+![Ll]ogs/webhook
+[Ll]ogs/webhook/*
+![Ll]ogs/webhook/stripe/
+[Ll]ogs/webhook/stripe/*
+![Ll]ogs/webhook/quaderno/
+[Ll]ogs/webhook/quaderno/*
+[Cc]ache/*
+*.log
+/tmp/*
+
+# Keep empty folders trick
+!.gitkeep
+
+# Composer and vendors
+/composer.lock
+/vendor/
+/public/vendor/
+.sass-cache/
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# npm dependency directories
+node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+/App/Theme/Resources/css/app.css
+/App/Theme/Resources/css/app.min.css
+/App/Theme/Resources/css/app.css.map
+/public/blog/
+
+files/avatar/
+files/contract/
+files/docs/
+files/extract/
+files/pitch/
+files/slider/
+files/thumb/
+files/project/
+files/partners/
+files/mail.lck
+
+package-lock.json
